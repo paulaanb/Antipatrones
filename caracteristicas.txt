@@ -1,8 +1,0 @@
-Identificación de características de "Spaghetti Code":
-
-1.Lógica de control basada en cadenas de texto: 
-El uso de cadenas de texto para determinar la operación a realizar puede llevar a un código difícil de entender y dar lugar a errores si las cadenas no coinciden exactamente.
-2.Falta de modularización: 
-La función calcular tiene múltiples responsabilidades al manejar diferentes operaciones. Esto dificulta la comprensión y el mantenimiento del código.
-3.Manejo de errores ineficiente: 
-El manejo de errores está incorporado en los mensajes de impresión, lo que no es ideal para un manejo más adecuado y específico de excepciones.
