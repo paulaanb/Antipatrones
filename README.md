@@ -240,8 +240,8 @@ El uso de una interfaz gráfica (GUI) para la calculadora mejora la experiencia 
 Convertimos el codigo proporcionado:
 
 
-<img src="">
+<img src="paulaanb/Antipatrones/UML/UML_Inicial.png">
 
 A un código mucho más optimizado y aplicando los principios SOLID:
 
-<img src="">
+<img src="paulaanb/Antipatrones/UML/UML_Final.png">

@@ -1,0 +1,98 @@
+ /* BEGIN: Estilos personalizados */
+ #calculadora {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#inputNumbers {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.seccion {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el color de fondo y el color de texto */
+body {
+    background-image: url("https://www.youtube.com/watch?v=jh4d4Lm6JG0"); /* Enlace al video de YouTube de Shrek */
+    background-size: cover;
+    color: white;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: white; /* Cambiamos el color de fondo de los botones a blanco */
+    color: camel; /* Cambiamos el color de texto de los botones a camel */
+    border: 1px solid camel; /* Agregamos un borde de 1px sólido de color camel */
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px; /* Hacemos los botones menos redondeados */
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    #inputNumbers {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    #inputNumbers {
+        width: 150px;
+    }
+}
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+}
+
+#calculadora {
+    position: relative;
+    z-index: 1;
+    /* Otros estilos de la calculadora aquí */
+}
+/* END: Estilos personalizados */
+
+/* BEGIN: Estilos personalizados - Fondo de color leopardo */
+body {
+    background-image: url("https://example.com/leopard-pattern.jpg"); /* URL de la imagen de fondo de leopardo */
+    background-size: cover;
+}
+/* END: Estilos personalizados - Fondo de color leopardo */
