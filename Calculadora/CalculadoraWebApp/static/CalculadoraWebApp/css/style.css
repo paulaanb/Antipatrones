@@ -90,9 +90,3 @@ button:hover {
 }
 /* END: Estilos personalizados */
 
-/* BEGIN: Estilos personalizados - Fondo de color leopardo */
-body {
-    background-image: url("https://example.com/leopard-pattern.jpg"); /* URL de la imagen de fondo de leopardo */
-    background-size: cover;
-}
-/* END: Estilos personalizados - Fondo de color leopardo */

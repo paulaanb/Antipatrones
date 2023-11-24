@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+from airtable import Airtable
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -122,3 +123,12 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+
+
+base_key = 'TU_BASE_KEY'  # Reemplaza con el ID de tu base de datos en Airtable
+table_name = 'Prueba'
+api_key = 'pat67idihhcENInZt.df763f97e58ef668aad585463681615625e6aebdf4c7a284cb4a0269de693f01'
+
+airtable = Airtable(base_key, table_name, api_key)
