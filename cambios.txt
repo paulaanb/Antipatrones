@@ -1,0 +1,10 @@
+Justificación de cambios:
+
+1.Eliminación de la lógica de control basada en cadenas de texto:
+Se han creado funciones separadas para cada operación, eliminando la necesidad de usar cadenas de texto para determinar la operación.
+2.Modularización del código: 
+Se ha separado cada operación en funciones independientes, lo que hace que el código sea más modular y cada función tenga una única responsabilidad.
+3.Mejora del manejo de errores: 
+Se ha mejorado el manejo de errores utilizando excepciones en lugar de imprimir mensajes. Esto proporciona una forma más clara de manejar situaciones excepcionales y facilita la identificación de problemas.
+
+Estos cambios hacen que el código sea más legible, mantenible y menos propenso a errores, evitando así las características asociadas con el "Spaghetti Code".
